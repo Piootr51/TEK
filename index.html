@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEK - Usługi Elektryczne</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Nagłówek -->
+<header class="bg-white text-black py-4 shadow">
+  <div class="container mx-auto flex justify-between items-center px-4">
+    <!-- Logo -->
+    <a href="#" class="flex items-center">
+      <img src="LOGO TEK.png" alt="Logo TEK" class="h-16 md:h-20 object-contain"> <!-- Zwiększona wysokość na 20 jednostek, ale użycie object-contain -->
+    </a>
+    <!-- Nawigacja -->
+    <nav>
+      <ul class="flex space-x-4">
+        <li><a href="#services" class="bg-red-500 text-white font-bold px-4 py-2 rounded hover:bg-red-600">Usługi</a></li>
+        <li><a href="#about" class="bg-red-500 text-white font-bold px-4 py-2 rounded hover:bg-red-600">O firmie</a></li>
+        <li><a href="#contact" class="bg-red-500 text-white font-bold px-4 py-2 rounded hover:bg-red-600">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <!-- Sekcja Hero -->
+<section class="bg-gray-100 text-center py-16">
+  <h2 class="text-4xl font-bold text-black mb-4">Techniczne Systemy Ochrony</h2>
+  <p class="text-gray-700 mb-6">Profesjonalne instalacje, naprawy i modernizacje elektryczne.</p>
+  <a href="#contact" class="bg-red-500 text-white px-6 py-3 rounded hover:bg-red-600">Skontaktuj się</a>
+</section>
+  <!-- Usługi -->
+<section id="services" class="py-16 bg-cover bg-center" style="background-image: url('Pictures/tlo%20uslugi.png');">
+  <div class="container mx-auto px-4">
+    <h3 class="text-4xl font-bold text-center text-black mb-8">Oferowane usługi</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Karta usługi -->
+      <div class="p-4 border rounded shadow bg-white hover:border-red-500">
+        <h4 class="text-xl font-bold text-black mb-2">Instalacje elektryczne</h4>
+        <p class="text-gray-700">Nowoczesne instalacje dla domów i firm.</p>
+      </div>
+      <div class="p-4 border rounded shadow bg-white hover:border-red-500">
+        <h4 class="text-xl font-bold text-black mb-2">Naprawy elektryczne</h4>
+        <p class="text-gray-700">Szybkie i skuteczne naprawy usterek.</p>
+      </div>
+      <div class="p-4 border rounded shadow bg-white hover:border-red-500">
+        <h4 class="text-xl font-bold text-black mb-2">Modernizacje</h4>
+        <p class="text-gray-700">Unowocześnianie istniejących instalacji elektrycznych.</p>
+      </div>
+      <!-- Nowe usługi -->
+      <div class="p-4 border rounded shadow bg-white hover:border-red-500">
+        <h4 class="text-xl font-bold text-black mb-2">Systemy monitoringu wizyjnego</h4>
+        <p class="text-gray-700">Instalacja i konfiguracja systemów CCTV.</p>
+      </div>
+      <div class="p-4 border rounded shadow bg-white hover:border-red-500">
+        <h4 class="text-xl font-bold text-black mb-2">Systemy alarmowe</h4>
+        <p class="text-gray-700">Bezpieczeństwo Twojego domu i firmy.</p>
+      </div>
+      <div class="p-4 border rounded shadow bg-white hover:border-red-500">
+        <h4 class="text-xl font-bold text-black mb-2">Instalacje teleinformatyczne</h4>
+        <p class="text-gray-700">Kompleksowa instalacja sieci komputerowych.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sekcja Prace Elektryka -->
+<section id="projects" class="py-16 bg-white">
+  <div class="container mx-auto px-4">
+    <h3 class="text-4xl font-bold text-center text-black mb-8">Nasze usługi w praktyce</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <!-- Obrazek 1 -->
+      <div class="relative">
+        <img src="Pictures/p1.png" alt="Instalacja elektryczna" class="w-full h-64 object-cover rounded-lg shadow-lg">
+        <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2 rounded-b-lg">
+          <p>Instalacja elektryczna w budynkach</p>
+        </div>
+      </div>
+      <!-- Obrazek 2 -->
+      <div class="relative">
+        <img src="Pictures/p2.png" alt="Modernizacja instalacji" class="w-full h-64 object-cover rounded-lg shadow-lg">
+        <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2 rounded-b-lg">
+          <p>Modernizacja instalacji elektrycznych</p>
+        </div>
+      </div>
+      <!-- Obrazek 3 -->
+      <div class="relative">
+        <img src="Pictures/p3.jpg" alt="Oświetlenie zewnętrzne" class="w-full h-64 object-cover rounded-lg shadow-lg">
+        <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2 rounded-b-lg">
+          <p>Instalacja oświetlenia zewnętrznego</p>
+        </div>
+      </div>
+      <!-- Obrazek 4 -->
+      <div class="relative">
+        <img src="Pictures/p4.png" alt="System alarmowy" class="w-full h-64 object-cover rounded-lg shadow-lg">
+        <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2 rounded-b-lg">
+          <p>Instalacja systemu alarmowego</p>
+        </div>
+      </div>
+      <!-- Obrazek 5 -->
+      <div class="relative">
+        <img src="Pictures/p5.jpg" alt="Oświetlenie LED" class="w-full h-64 object-cover rounded-lg shadow-lg">
+        <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2 rounded-b-lg">
+          <p>Modernizacja oświetlenia LED</p>
+        </div>
+      </div>
+      <!-- Obrazek 6 -->
+      <div class="relative">
+        <img src="Pictures/p6.png" alt="Systemy CCTV" class="w-full h-64 object-cover rounded-lg shadow-lg">
+        <div class="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 text-white text-center py-2 rounded-b-lg">
+          <p>Instalacja systemów monitoringu</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Sekcja O firmie -->
+  <section id="about" class="bg-white py-16">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center text-black mb-8">O firmie</h3>
+      <p class="text-gray-700 text-center max-w-2xl mx-auto">
+        Firma TEK oferuje kompleksowe usługi elektryczne, specjalizując się w nowoczesnych rozwiązaniach zapewniających bezpieczeństwo i komfort naszych klientów. Działamy na rynku od ponad 30 lat, dostosowując usługi do indywidualnych potrzeb.
+      </p>
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="contact" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center text-black mb-8">Kontakt</h3>
+      <div class="max-w-md mx-auto bg-white p-6 rounded shadow">
+        <p class="text-gray-700 mb-4"><strong>Telefon:</strong> +48 123 456 789</p>
+        <p class="text-gray-700 mb-4"><strong>Email:</strong> kontakt@tek.pl</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stopka -->
+  <footer class="bg-black text-white py-4 text-center">
+    <p>&copy; 2025 TEK. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+
+</body>
+</html>
